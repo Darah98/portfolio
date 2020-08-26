@@ -399,14 +399,15 @@ br.clear {
 
         #main > section.cover {
             padding: 10em 0;
-            /* background-size: cover; */
             background-position: center center;
             background: no-repeat;
         }
 
         #main > section.one {
             background-color: #81918E;
-            background-image: url("../../images/blackcat.png");
+            background-image: url("../../images/intro.png");
+            background-size: cover;
+            background-blend-mode: color-dodge;
         }
 
         #main > section.two {
